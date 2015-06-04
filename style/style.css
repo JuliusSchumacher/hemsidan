@@ -1,0 +1,197 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: rgb(19, 32, 40);
+}
+
+/*------------------HEADER-----------------------------------*/
+
+header {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    clear: both;
+    background-color: darkseagreen;
+    z-index: 1;
+    display: none;
+}
+
+header h1 {
+    font-size: 7vh;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    display: inline;
+    margin: 0;
+    float: left;
+    background-color: dimgray;
+}
+
+header nav {
+    position: absolute;
+    height: 100%;
+    display: inline;
+    width: 38vh;
+    background-color: dodgerblue;
+    right: 20%;
+}
+
+header nav a {
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: black;
+    display: inline-table;
+    position: relative;
+    width: 8vh;
+    height: 10vh;
+    margin: 0 0.5vh;
+}
+
+header nav a div {
+    width: 8vh;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    background-color: deeppink;
+}
+
+header nav a div p {
+    position: absolute;
+    bottom: 3px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+/*-------------------------WRAPPER-------------------------------*/
+
+#wrapper {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    position: absolute;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------INTRO----------------------------------*/
+
+.intro {
+    width: 100%;
+    height: 95vh;
+    margin: 0;
+    color: #fff;
+    overflow: hidden;
+}
+
+.intro .introImg {
+    background-size: 150% 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(/hemsidan/images/intro.jpg);
+    width: 100%;
+    height: 200%;
+    top: -100%;
+    z-index: 0;
+    position: relative;
+    
+}
+
+.intro h1 {
+    z-index: 1;
+    position: absolute;
+    top: 13vh;
+    left: 9vh;
+    font-family: 'Roboto';
+    font-size: 12vh;
+    font-weight: 100;
+}
+
+.intro h3 {
+    z-index: 2;
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 10vh;
+    font-weight: 300;
+}
+
+.intro .des {
+    top: 27vh;
+    left: 15vh;
+}
+
+.intro .dev {
+    top: 37vh;
+    left: 20vh;
+}
+
+/*-------------------------PROJECTS---------------------------------*/
+
+#projects {
+    width: 80%;
+    height: auto;
+    margin: 5vh auto 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+#projects h1{
+    position: relative;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1.5vh;
+    margin: 5vh 10vh;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 10vh;
+    font-weight: 100;
+    color: #fff;
+}
+
+#projects .project {
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+    margin-bottom: 1vh;
+    position: relative;
+}
+
+#projects .project .projectImage {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(/hemsidan/images/OnRKhvlFQ2uJNSx5O3cc_DSC00560.jpg);
+    width: 100%;
+    height: 200%;
+    top: -100%;
+    position: relative;
+    z-index: 0;
+}
+
+#projects a:nth-child(3) .project .projectImage {
+    background-image: url(/hemsidan/images/eda0fb7c.jpg);
+}
+#projects a:nth-child(4) .project .projectImage {
+    background-image: url(/hemsidan/images/photo-1428856472086-8674d9cbd6bc.jpg);
+}
+
+#projects .project h2 {
+    position: absolute;
+    top: 6vh;
+    left: 8vh;
+    margin: 0;
+    z-index: 1;
+    font-family: 'Josefin Sans';
+    font-size: 8vh;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
